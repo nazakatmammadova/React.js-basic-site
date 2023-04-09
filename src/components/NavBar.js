@@ -23,7 +23,7 @@ function NavBar() {
     <>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" className="navbar-logo">TRVL  <i class="fa-brands fa-typo3"></i></Link>
+                <Link to="/" className="navbar-logo">TRVL  <i className="fa-brands fa-typo3"></i></Link>
                 <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fa-solid fa-x' : 'fa-solid fa-bars'}></i>
                 </div>
