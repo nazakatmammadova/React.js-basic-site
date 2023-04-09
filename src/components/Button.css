@@ -1,0 +1,32 @@
+.btn{
+    /* padding: 8px 20px; */
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn-primary{
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #fff;
+}
+.btn-outline-primary{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    /* padding: 8px 20px; */
+    transition: all 0.5s ease-in-out;
+}
+.btn-medium{
+    padding: 8px 20px;
+    /* font-size: 20px; */
+}
+.btn-large{
+    padding: 12px 26px;
+    /* font-size: 20px; */
+}
+.btn-outline-primary{
+    background-color: #fff;
+    color: #242424;
+}
